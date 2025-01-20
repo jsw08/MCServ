@@ -11,10 +11,11 @@ services:
       SERVER_NAME: "insane people"
       ENABLE_WHITELIST: true
       WHITELIST: "jsuwu"
-      MODRINTH_PROJECTS: "async:alpha,tt20,scalablelux,chunky,alternate-current,ksyxis,modernfix,krypton,debugify,c2me-fabric,noisium,lithium,ferrite-core,no-chat-reports,biome-spawn-point,village-spawn-point,calcmod,appleskin,netherportalfix,spark,advanced-backups,luckperms,ledger"
+      MODRINTH_PROJECTS: "advanced-backups,alternate-current,appleskin,async:alpha,biome-spawn-point,c2me-fabric,calcmod,chunky,debugify,ferrite-core,krypton,ksyxis,ledger,lithium,luckperms,modernfix,netherportalfix,no-chat-reports,noisium,scalablelux,spark,tt20,village-spawn-point"
       MODRINTH_DOWNLOAD_DEPENDENCIES: "optional"
       ENABLE_COMMAND_BLOCK: true
     ports:
       - "25565:25565"
     volumes:
       - ./data:/data
+
