@@ -11,11 +11,37 @@ services:
       SERVER_NAME: "insane people"
       ENABLE_WHITELIST: true
       WHITELIST: "jsuwu"
-      MODRINTH_PROJECTS: "advanced-backups,alternate-current,appleskin,async:alpha,biome-spawn-point,c2me-fabric,calcmod,chunky,debugify,ferrite-core,krypton,ksyxis,ledger,lithium,luckperms,modernfix,netherportalfix,no-chat-reports,noisium,scalablelux,spark,tt20,village-spawn-point"
-      MODRINTH_DOWNLOAD_DEPENDENCIES: "optional"
+      MODRINTH_PROJECTS: "alternate-current,ksyxis,scalablelux,async:alpha,ferrite-core,lithium,modernfix,krypton,debugify,c2me-fabric,noisium,tt20,appleskin,biome-spawn-point,village-spawn-point,calcmod,no-chat-reports,view-distance-fix:beta,chunky,netherportalfix,advanced-backups,vivecraft,simple-voice-chat"
+      MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
       ENABLE_COMMAND_BLOCK: true
     ports:
       - "25565:25565"
+      - "24454:24454"
     volumes:
       - ./data:/data
 
+# Mod list
+
+# https://modrinth.com/mod/alternate-current
+# https://modrinth.com/mod/ksyxis
+# https://modrinth.com/mod/scalablelux
+# https://modrinth.com/mod/async:alpha
+# https://modrinth.com/mod/ferrite-core
+# https://modrinth.com/mod/lithium
+# https://modrinth.com/mod/modernfix
+# https://modrinth.com/mod/krypton
+# https://modrinth.com/mod/debugify
+# https://modrinth.com/mod/c2me-fabric
+# https://modrinth.com/mod/noisium
+# https://modrinth.com/mod/tt20
+# https://modrinth.com/mod/appleskin
+# https://modrinth.com/mod/biome-spawn-point
+# https://modrinth.com/mod/village-spawn-point
+# https://modrinth.com/mod/calcmod
+# https://modrinth.com/mod/no-chat-reports
+# https://modrinth.com/mod/view-distance-fix:beta
+# https://modrinth.com/mod/chunky
+# https://modrinth.com/mod/netherportalfix
+# https://modrinth.com/mod/advanced-backups
+# https://modrinth.com/mod/vivecraft
+# https://modrinth.com/mod/simple-voice-chat
