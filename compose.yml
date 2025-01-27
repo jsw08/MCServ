@@ -13,7 +13,7 @@ services:
       MODRINTH_PROJECTS: "alternate-current,ksyxis,scalablelux,async:alpha,ferrite-core,lithium,modernfix,krypton,debugify,c2me-fabric,noisium,tt20,appleskin,biome-spawn-point,village-spawn-point,calcmod,no-chat-reports,view-distance-fix:beta,chunky,netherportalfix,advanced-backups,vivecraft,simple-voice-chat"
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
       ENABLE_COMMAND_BLOCK: true
-      WHITELIST: "cbd3ea512acb4b8cb8b7222f9914816f,84236ecca29e4309862d3283472519fe,b0749a1b3bd9457b902d24974018e93c,d4304d94706e43c589bac69042455f47,fdcfa75e66e84e03917ed1b1090e38af,e148f15184eb47da80b33c9d6274b4a8" # jsuwu,yologekkie08,elmarrja,yorspace,magnumpc,red
+      WHITELIST: "cbd3ea512acb4b8cb8b7222f9914816f,84236ecca29e4309862d3283472519fe,b0749a1b3bd9457b902d24974018e93c,d4304d94706e43c589bac69042455f47,fdcfa75e66e84e03917ed1b1090e38af,e148f15184eb47da80b33c9d6274b4a8,de0634deac2845f4a23751d31302dada,ca8793afcf174a59b5c933c8ed592bee" # jsuwu,yologekkie08,elmarrja,yorspace,magnumpc,red,kinggreen,mars1234567
     ports:
       - "25565:25565"
       - "24454:24454/udp"
