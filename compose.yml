@@ -4,11 +4,13 @@ services:
     environment:
       EULA: "true"
       TYPE: "FABRIC"
-      MEMORY: "8g"
+      MEMORY: "20g"
       TZ: "CET"
       USE_AIKAR_FLAGS: true
       DIFFICULTY: "hard"
       SERVER_NAME: "insane people"
+      MOTD: "\u00a7l  \u00a74              Mental asylum\u00a7r - SEASON\u00a7k\u00a7o 4 \u00a7r\n\u00a7l  \u00a7r          please don't kill each other \u00a7nagain"
+      ICON: "https://cdn.discordapp.com/icons/1235285183842881676/c5a1a0ceefab492239a2fdf96c8c8dcd.webp"
       ENABLE_WHITELIST: true
       MODRINTH_PROJECTS: "alternate-current,ksyxis,scalablelux,async:alpha,ferrite-core,lithium,modernfix,krypton,debugify,c2me-fabric,noisium,tt20,appleskin,biome-spawn-point,calcmod,no-chat-reports,view-distance-fix:beta,chunky,netherportalfix,vivecraft,simple-voice-chat,pl3xmap:beta,chunkyborder,audaki-cart-engine,ledger"
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
